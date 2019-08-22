@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "eater_38_pdx"
+
+Eater38Pdx::CLI.new.call
