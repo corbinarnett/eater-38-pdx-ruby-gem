@@ -1,7 +1,8 @@
 #environment
-require "eater_38_pdx/version"
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
 
-module Eater38Pdx
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./eater_38_pdx/version"
+require_relative "./eater_38_pdx/restaurant"
+require_relative "./eater_38_pdx/cli"
